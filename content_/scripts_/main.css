@@ -17,6 +17,7 @@ body{
     height: 60px;
     display: flex;
     flex-direction: row;
+    border-bottom: 10px solid #006e00;
 }
 #logo{
     width: 55px;

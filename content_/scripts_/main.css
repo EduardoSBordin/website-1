@@ -67,6 +67,7 @@ span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14pt;
     color: rgb(0, 0, 0);
+
 }
 #img-1{
 
@@ -92,8 +93,7 @@ span{
 #imgLeft{
 
     width: 400px;
-    height: 500px;
-
+    height: 520px;
     border-radius: 5px;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -104,18 +104,24 @@ span{
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#title-link{
+#text-img1{
 
     position: absolute;
     display: flex;
+    background: linear-gradient(180deg, rgba(78,78,78,0) 0%, rgba(0, 0, 0, 0.486) 88%);
+    padding: 10px;
+    width: 380px;
+    height: 490px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: 0.4s;
+}
+#text-img1:hover{
 
     background: linear-gradient(180deg, rgba(78,78,78,0) 0%, rgba(0,0,0,1) 88%);
-    padding: 10px;
-    margin-top: 400px;
-
-    width: 380px;
-    height: 100px;
-    margin-left: 0%;
 }
 #text-img2{
 
@@ -128,6 +134,8 @@ span{
     margin: 10px;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 #text-img2:hover{
 
@@ -137,6 +145,10 @@ span{
 }
 #textIMG{
     margin-top: 150px;
+    color: white;
+}
+#textIMG1{
+    margin-top: 350px;
     color: white;
 }
 #img-up{

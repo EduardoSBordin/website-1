@@ -15,3 +15,5 @@ profilePhoto.addEventListener('click', () => {
     spanImgProfile.style.display = 'block';
 
 })
+
+document.querySelector('body').onload(spanImgProfile.style.display = 'none');

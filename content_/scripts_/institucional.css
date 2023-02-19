@@ -101,10 +101,6 @@ span{
     height: 80px;
     margin-top: 80px;
 }
-#divInf1{
-
-    background: rgba(0, 0, 255, 0);
-}
 #divEmployers{
     background: rgba(0, 128, 0, 0);
     width: 100%;
@@ -113,15 +109,19 @@ span{
     flex-direction: column;
 
     color: white;
+
+    text-align: center;
 }
 #divInf1{
 
+    background: rgba(0, 0, 255, 0);
     width: 100%;
     height: 497px;
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
     color: white;
+
 }
 #imgLogo{
 
@@ -153,6 +153,7 @@ span{
 
     display: flex;
     flex-direction: column;
+
 }
 #txtDivNews2{
 

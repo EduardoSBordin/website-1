@@ -1,7 +1,7 @@
 const link1 = document.querySelector('#link1');
 const toLink1 = document.querySelector('#toLink1');
 
-let clickLink = 0;
+let clickLink = 1;
 link1.addEventListener('click', () => {
 
     clickLink++;
